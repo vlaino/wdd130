@@ -1,5 +1,5 @@
-@import url("https://fonts.google.com/specimen/Libre+Franklin");
-@import url("https://fonts.google.com/specimen/Protest+Riot?preview.layout=grid&query=prot&classification=Display&stroke=Sans+Serif");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 
 body {
@@ -14,7 +14,7 @@ padding: 20px;
     --accent1-color: #D0DE82;
     --accent2-color: #038D23;
 
-    --heading-font: "Protest Riot", "san serif";
+    --heading-font: "Protest Riot", sans-serif;
     --paragraph-font: "Libre Franklin";
 
     --nav-background-color: #EEE5E9;
