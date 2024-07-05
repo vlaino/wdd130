@@ -48,28 +48,31 @@ p {
 .hero h1{
     position: absolute;
     top: 0;
-    left: 270px;
+    left: 400px;
     background-color: var(--nav-background-color);
 }
 
 div {
     position: relative;
 }
-article img {
-    width: 30%;
+
+article {
     position: absolute;
     top: 30%;
-    left: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(187, 207, 144, 0.7);
+    left: 20%;
+    right: 0;
+    margin: 0 auto;
+}
+
+.hero article img {
+    width: 30%;
+    float: right;
 }
 
 article p {
-    position: absolute;
-    top: 22%;
-    left: 0%;
-    background-color: #bbcf90;
-    padding: 20px;
-    height: 120px;
-    opacity: 70%;
     text-align: left;
 }
 
@@ -77,8 +80,6 @@ section p {
     width: 940px;
 }
 
-/*.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}/*
+nav img {
+    width: 40px;
+}
