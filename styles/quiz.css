@@ -34,9 +34,6 @@ form {
 }
 
 fieldset {
-    display: grid;
-    grid-gap: .5rem;
-    margin: 1rem;
     border: none;
     padding: 1rem;
 }
@@ -54,20 +51,15 @@ label, input, button, select, textarea {
 label {
     text-align: right;
     padding-right: 1rem;
+    margin: 25px;
 }
 
 input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
-}
-
-input {
     width: 550px;
 }
 
-select {
-    width: 550px;
-}
 
 button {
     margin: 1rem;
@@ -85,19 +77,24 @@ button:hover {
 
 
 .form-item {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
     align-items: center;
+}
+
+span {
+    color: navy;
+    font-size: 1.5rem;
+    font-weight: bold;
 
 }
 
 
-/*.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
+p {
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
 }
 
-.column2 {
-    grid-template-columns: 1fr 2fr;
+.box {
+    margin: 3rem;
+    padding: 1rem;
 }
