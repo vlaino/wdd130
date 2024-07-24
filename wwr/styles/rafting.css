@@ -45,6 +45,7 @@ a {
 
 p {
     margin: 1rem;
+    font-size: 1.2rem;
 }
 
 p img {
@@ -141,12 +142,75 @@ footer {
 
 }
 
+.sociallinks {
+    grid-column: 1;
+}
 
 .p2 {
     grid-column: 4;
     align-items: center;
 }
-/*max widht: 10000px/*/
+
+.map {
+    display: flex;
+    justify-content: center;    
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(212, 21, 18);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
 
 
- 
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #bbc2e8;
+    display: grid;
+}
+
+label, input, button, select, textarea {
+    font-family: Libre Franklin, sans-serif;
+}
+
+label {
+    padding: 0.5rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    margin: 0 60px;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+

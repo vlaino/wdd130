@@ -66,7 +66,6 @@ input, select, textarea {
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
-    vertical-align: bottom;
 }
 
 button {
