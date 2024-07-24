@@ -29,7 +29,8 @@ main {
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    position: absolute;
+    position: relative;
+    margin: 1rem;
 }
 
 h2 {
