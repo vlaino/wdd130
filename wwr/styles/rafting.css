@@ -160,7 +160,7 @@ footer {
 
 button {
     margin: 1rem;
-    background-color: rgb(212, 21, 18);
+    background-color: rgb(63, 18, 212);
     color: #fff;
     border: none;
     border-radius: .5rem;
@@ -220,4 +220,22 @@ input[type="radio"] {
 
 .offering img{
     margin: 40px 300px;
+}
+
+.contact {
+    color: white;
+    box-sizing:border-box;
+    font-size: 30px;
+    margin: auto 200px;
+    text-align: center;
+}
+
+
+
+figure img {
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
